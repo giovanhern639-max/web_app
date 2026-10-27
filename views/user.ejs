@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head>
+   <title>Home Page</title>
+</head>
+<body>
+   <h1>TAs</h1>
+   <% for (var i in team_members) {%>
+       <p>Name: <%=team_members[i].fname%>, Section: <%=team_members[i].lname%><p>
+   <% } %>
+</body>
+</html>
